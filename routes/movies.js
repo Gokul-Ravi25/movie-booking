@@ -4,7 +4,7 @@ const User = require("../models/User");
 
 //Create a movie
 
-router.movies("/", async (req,res)=>{
+router.post("/", async (req,res)=>{
     const newPost = new movies(req.body)
     try{
         const savedPost = await newPost.save();
