@@ -1,0 +1,1 @@
+MONGO_URL = mongodb+srv://admin:6HER2jOjp8yEKE1d@cluster0.th82c.mongodb.net/moviebooking?retryWrites=true&w=majority
